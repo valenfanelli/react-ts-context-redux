@@ -7,7 +7,7 @@ import Home from './components/Home.tsx';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-ts-context-redux">
       <AppContent />
     </BrowserRouter>
   );
