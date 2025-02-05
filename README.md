@@ -13,10 +13,10 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 Node.js (Recomendado: v16 o superior)
 npm o yarn (Administradores de paquetes)
 
-- Clonar el repositorio
+Clonar el repositorio
 -   git clone https://github.com/valenfanelli/react-ts-context-redux.git
 -   cd react-ts-context-redux
-- Instalar dependencias
+Instalar dependencias
 -   npm install
-- Correr
+Correr
 -   npm run dev
