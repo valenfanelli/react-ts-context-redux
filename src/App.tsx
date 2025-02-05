@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import GoalsView from './components/context/GoalsView.tsx';
 import GoalsViewRedux from './components/redux/GoalsViewRedux.tsx';
 import { NavBar } from './components/UI/NavBar.tsx';
+import  Error from './components/UI/Error.tsx';
 import Home from './components/Home.tsx';
 
 function App() {
@@ -26,6 +27,7 @@ function AppContent() {
         <Route path="/timers" element={<TimersView />} />
         <Route path="/context" element={<GoalsView />} />
         <Route path="/redux" element={<GoalsViewRedux />} />
+        <Route path="/*" element={<Error/>} />
       </Routes>
 
       {/* NavBar down if we're in "/" */}
