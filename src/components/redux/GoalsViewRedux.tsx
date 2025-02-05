@@ -5,7 +5,7 @@ import GoalListRedux from './GoalListRedux.tsx';
 export default function GoalsViewRedux() {
   return <>
     <Provider store={store}>
-        <h1 className="title">Goals con Redux</h1>
+        <h1 className="title">Goals with Redux</h1>
         <main>
             <AddGoalRedux/>
             <GoalListRedux/>

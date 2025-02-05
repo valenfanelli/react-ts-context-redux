@@ -5,7 +5,7 @@ export default function GoalsView() {
   
   return <>
     <GoalsContextProvider>
-      <h1 className="title">Goals con useReducer y context API</h1>
+      <h1 className="title">Goals with useReducer & context API</h1>
       <main>
         <AddGoal/>
         <GoalList/>
