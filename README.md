@@ -3,10 +3,16 @@ Este repositorio contiene ejemplos prácticos de cómo manejar estado global en 
 Este proyecto fue desarrollado utilizando los conceptos adquiridos en el curso **React & Typescript - The practical guide** de Udemy.
 
 🔹 Timers ⏳ → Context API + useReducer + setInterval
+
+
 🔹 Goals con Context 🎯 → Context API + useReducer
+
+
 🔹 Goals con Redux 🗂️ → Redux Toolkit
 
 🚀 Instrucciones para correr el proyecto
+
+
 🔹 Requisitos previos
 Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
