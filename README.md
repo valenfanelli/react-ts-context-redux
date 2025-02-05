@@ -16,7 +16,9 @@ npm o yarn (Administradores de paquetes)
 Clonar el repositorio
 -   git clone https://github.com/valenfanelli/react-ts-context-redux.git
 -   cd react-ts-context-redux
+
 Instalar dependencias
 -   npm install
+
 Correr
 -   npm run dev
