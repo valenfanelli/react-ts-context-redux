@@ -16,8 +16,9 @@ Este proyecto fue desarrollado utilizando los conceptos adquiridos en el curso *
 🔹 Requisitos previos
 Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
-Node.js (Recomendado: v16 o superior)
-npm o yarn (Administradores de paquetes)
+- Node.js (Recomendado: v16 o superior)
+- npm (Administrador de paquetes)
+
 
 Clonar el repositorio
 -   git clone https://github.com/valenfanelli/react-ts-context-redux.git
