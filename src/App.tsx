@@ -1,18 +1,20 @@
-import AddTimer from './components/AddTimer.tsx';
-import Header from './components/Header.tsx';
-import Timers from './components/Timers.tsx';
-import TimersContextProvider from './store/timers-context.tsx';
+import TimersView from './components/timers/TimersView.tsx';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import GoalsView from './components/context/GoalsView.tsx';
+import GoalsViewRedux from './components/redux/GoalsViewRedux.tsx';
+import { NavBar } from './components/UI/NavBar.tsx';
 
 function App() {
-  return (
-    <TimersContextProvider>
-      <Header />
-      <main> 
-        <AddTimer />
-        <Timers />
-      </main>
-    </TimersContextProvider>
-  );
+  return <>
+    <BrowserRouter>
+      <NavBar/>
+      <Routes>
+          <Route path='/timers' element={<TimersView/>}></Route>
+          <Route path='/context' element={<GoalsView/>}></Route>
+          <Route path='/redux' element={<GoalsViewRedux/>}></Route>
+      </Routes>
+    </BrowserRouter>
+  </>
 }
 
 export default App;

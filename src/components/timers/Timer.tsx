@@ -1,5 +1,5 @@
-import Container from './UI/Container.tsx';
-import { useTimersContext, type Timer as TimerProps} from '../store/timers-context.tsx';
+import Container from '../UI/Container.tsx';
+import { useTimersContext, type Timer as TimerProps} from '../../store/timers-context.tsx';
 import { useEffect, useRef, useState } from 'react';
 export default function Timer({name, duration}: TimerProps) {
   const interval = useRef<number | null>(null);

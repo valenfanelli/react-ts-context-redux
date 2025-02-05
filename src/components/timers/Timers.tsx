@@ -1,4 +1,4 @@
-import { useTimersContext } from "../store/timers-context";
+import { useTimersContext } from "../../store/timers-context";
 import Timer from "./Timer";
 
 export default function Timers() {
