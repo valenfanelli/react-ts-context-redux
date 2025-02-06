@@ -1,31 +1,33 @@
 React TypeScript: Context & Redux
-Este repositorio contiene ejemplos prácticos de cómo manejar estado global en una aplicación React + TypeScript utilizando Context API, useReducer e Interval, así como Redux Toolkit.
-Este proyecto fue desarrollado utilizando los conceptos adquiridos en el curso **React & Typescript - The practical guide** de Udemy.
+
+This repository contains practical examples about how to manage the global state in a React + TypeScript application using Context API, useReducer, and Interval, as well as Redux Toolkit.
+This project was made using concepts learned in the **React & TypeScript - The Practical Guide** course from Udemy.
 
 🔹 Timers ⏳ → Context API + useReducer + setInterval
 
 
-🔹 Goals con Context 🎯 → Context API + useReducer
+🔹 Goals with Context 🎯 → Context API + useReducer
 
 
-🔹 Goals con Redux 🗂️ → Redux Toolkit
-
-🚀 Instrucciones para correr el proyecto
+🔹 Goals with Redux 🗂️ → Redux Toolkit
 
 
-🔹 Requisitos previos
-Antes de comenzar, asegúrate de tener instalado lo siguiente:
-
-- Node.js (Recomendado: v16 o superior)
-- npm (Administrador de paquetes)
+🚀 Instructions to run the project
 
 
-Clonar el repositorio
+🔹 Prerequisites
+Before getting started, make sure you have the following installed:
+
+- Node.js (Recomended: v16 or later)
+- npm (Package manager)
+
+
+Clone the repository
 -   git clone https://github.com/valenfanelli/react-ts-context-redux.git
 -   cd react-ts-context-redux
 
-Instalar dependencias
+Install dependencies
 -   npm install
 
-Correr
+Run the project
 -   npm run dev
