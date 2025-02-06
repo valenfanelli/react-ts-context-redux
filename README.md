@@ -1,5 +1,6 @@
 # React TypeScript: Context & Redux
 
+## English 🇬🇧
 This repository contains practical examples about how to manage the global state in a React + TypeScript application using Context API, useReducer, and Interval, as well as Redux Toolkit.
 This project was made using concepts learned in the **React & TypeScript - The Practical Guide** course from Udemy.
 
